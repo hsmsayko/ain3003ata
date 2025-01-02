@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Book</title>
+</head>
+<body>
+    <h1>Edit Book</h1>
+    <form method="POST">
+        ISBN: <input type="text" name="isbn" value="{{ book.isbn }}" required><br>
+        Title: <input type="text" name="title" value="{{ book.title }}" required><br>
+        Year: <input type="text" name="year" value="{{ book.year }}" required><br>
+        Price: <input type="text" name="price" value="{{ book.price }}" required><br>
+        Page: <input type="text" name="page" value="{{ book.page }}" required><br>
+        Category: <input type="text" name="category" value="{{ book.category }}" required><br>
+        Cover Photo: <input type="text" name="coverPhoto" value="{{ book.coverPhoto }}" required><br>
+        Publisher Name: <input type="text" name="publisher_name" value="{{ book.publisher['name'] }}" required><br>
+        Publisher Year: <input type="text" name="publisher_year" value="{{ book.publisher['year'] }}" required><br>
+        Author Name: <input type="text" name="author_name" value="{{ book.author['name'] }}" required><br>
+        Author DOB: <input type="text" name="author_dob" value="{{ book.author['dob'] }}" required><br>
+        <input type="submit" value="Update Book">
+    </form>
+</body>
+</html>
