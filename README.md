@@ -1,4 +1,9 @@
 # AIN3003 Option 1 Term Project
+
+![image](https://github.com/user-attachments/assets/f9c34c95-65fc-4fcf-85ce-9be02713ecfe)
+
+
+
 Hi, I chose the first option of the AIN3003 term project. The project's details and objectives are written below:
 
 
